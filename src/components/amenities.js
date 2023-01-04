@@ -1,6 +1,11 @@
 import React from 'react'
 import apartmentImg from './images/apartment1.jpg'
 import bedImg from './images/bed.png'
+import airImg from './images/air-conditioning.png'
+import toiletImg from './images/toilet.png'
+import parkingImg from './images/parking.png'
+import wifiImg from './images/wifi.png'
+import cutleryImg from './images/cutlery.png'
 const amenities = () => {
 
     function reveal() {
@@ -26,11 +31,11 @@ const amenities = () => {
     <div class="description">
         <h1 id="amenities">Our amenities include</h1>
         <img id="img11" class="reveal" src={bedImg}></img>
-        <img id="img12" class="reveal" src="assets/images/air-conditioning.png"></img>
-        <img id="img13" class="reveal" src="assets/images/toilet.png"></img>
-        <img id="img14" class="reveal" src="assets/images/parking.png"></img>
-        <img id="img15" class="reveal" src="assets/images/wifi.png"></img>
-        <img id="img16" class="reveal" src="assets/images/cutlery.png"></img>
+        <img id="img12" class="reveal" src={airImg}></img>
+        <img id="img13" class="reveal" src={toiletImg}></img>
+        <img id="img14" class="reveal" src={parkingImg}></img>
+        <img id="img15" class="reveal" src={wifiImg}></img>
+        <img id="img16" class="reveal" src={cutleryImg}></img>
         <p id="txt11" class="reveal">Two bedrooms</p>
         <p id="txt12" class="reveal">Air conditioning</p>
         <p id="txt13" class="reveal">Private toilet</p>

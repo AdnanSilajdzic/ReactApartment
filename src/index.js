@@ -3,7 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css'
 import Banner from './components/Banner';
 import Explore from './components/explore';
-import Amenities from './components/amenities'
+import Amenities from './components/amenities';
+import Gallery from './components/Gallery';
+import Map from './components/map';
+import Review from './components/reviews';
+import History from './components/history';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
@@ -13,10 +17,11 @@ root.render(
     <Banner />
     <Explore />
     <Amenities />
+    <Gallery />
+    <Map />
+    <Review />
+    <History />
   </div>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
