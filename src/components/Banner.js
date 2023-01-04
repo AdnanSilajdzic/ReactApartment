@@ -9,6 +9,8 @@ const Banner = () => {
     strings: ['Our Apartment', 'Sarajevo', 'The old town'],
     autoStart: true,
   });
+
+  
   return (
     <div>
       <div class="banner">
