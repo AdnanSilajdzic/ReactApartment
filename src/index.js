@@ -8,6 +8,7 @@ import Gallery from './components/Gallery';
 import Map from './components/Map';
 import Review from './components/Reviews';
 import History from './components/history';
+import Contact from './components/Contact';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
@@ -21,6 +22,7 @@ root.render(
     <Map />
     <Review />
     <History />
+    <Contact />
   </div>
 );
 

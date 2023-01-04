@@ -523,10 +523,10 @@ button .arrow {
   color: white;
   font-weight: 550;
   font-size: 25px;
-  margin-left: 5vw;
+  margin-left: 6vw;
   position: absolute;
-  line-height: 30px;
-  width: 25vw;
+  line-height: 50px;
+  width: 20vw;
 }
 
 #par2 {
@@ -537,8 +537,8 @@ button .arrow {
   margin-left: 100px;
   position: absolute;
   margin-left: 40vw;
-  width: 25vw;
-  line-height: 30px;
+  width: 20vw;
+  line-height: 50px;
 }
 
 #par3 {
@@ -548,8 +548,8 @@ button .arrow {
   font-size: 25px;
   margin-left: 70vw;
   position: absolute;
-  line-height: 30px;
-  width: 25vw;
+  line-height: 50px;
+  width: 20vw;
 }
 
 .contact {

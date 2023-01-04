@@ -21,7 +21,7 @@ const history = () => {
   return (
     <div class="history">
     <img id="tin" src={tin}></img>
-    <h1>Our History</h1>
+    <center><h1>Our History</h1></center>
     <p id="par1" class="reveal">The building in which this apartment is located was built during the ottoman empire
      and can be seen on paintings of Sarajevo which are 400 years old
     </p>

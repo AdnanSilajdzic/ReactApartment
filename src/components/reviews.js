@@ -33,7 +33,7 @@ const Reviews = () => {
                     current+=0.1;
                     obj.innerHTML = current.toFixed(1);
                 }
-            },30);
+            },15);
             var review = document.getElementById("review_img");
             var value = document.getElementById("value");
             var ten = document.getElementById("outtaten");
